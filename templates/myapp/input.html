@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir>
+<head>
+    <title></title>
+</head>
+<body>
+    <center>
+        <h1>Fill up the Following Details</h1>
+        <form method="POST">
+            {{form.as_p}}
+            {%csrf_token%}
+            <input type="submit" name="submit">
+        </form>
+    </center>
+</body>
+</html>
